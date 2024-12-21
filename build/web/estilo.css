@@ -1,0 +1,216 @@
+/* Estilo para a tabela */
+table {
+    width: 100%; /* Ajusta a largura para 100% */
+    margin: 20px auto; /* Centraliza a tabela na página com margem superior e inferior */
+    border-collapse: collapse;
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    background-color: #ffffff; /* Cor de fundo branca */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    border-radius: 8px; /* Cantos arredondados */
+    overflow: hidden; /* Evita que o conteúdo extrapole */
+}
+
+h1 {
+    font-size: 48px; /* Ajuste o tamanho da fonte conforme necessário */
+    margin-bottom: 30px; /* Espaçamento inferior */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra do texto */
+}
+
+
+/* Estilo para o título */
+h2, h4 {
+    text-align: center; /* Centraliza o título */
+    margin-top: 50px; /* Espaçamento superior */
+    color: #c0392b; /* Cor do título */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Fonte do título */
+    text-transform: uppercase; /* Texto em maiúsculas */
+}
+
+h2 {
+    font-size: 42px; /* Tamanho da fonte do h2 */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+h4 {
+    font-size: 24px; /* Tamanho da fonte do h4 */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+/* Estilo para o cabeçalho da tabela */
+th {
+    background: linear-gradient(90deg, #c0392b, #e74c3c); /* Gradiente de fundo */
+    color: #fff;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center; /* Centraliza o texto */
+    border: 1px solid #c0392b;
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilo para as células da tabela */
+td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center; /* Centraliza o texto */
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+/* Estilo para as linhas alternadas (para melhor legibilidade) */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo para o rodapé da tabela */
+tfoot {
+    background: linear-gradient(90deg, #c0392b, #e74c3c); /* Gradiente de fundo */
+    color: #fff;
+    font-weight: bold;
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Estilo para o link nas células de ação */
+td a {
+    color: #c0392b;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease; /* Transição suave */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+td a:hover {
+    color: #000;
+    transform: scale(1.1); /* Aumenta o link ao passar o mouse */
+}
+
+/* Estilo para campos bloqueados */
+.bloqueado {
+    background-color: #e0e0e0; /* Define a cor de fundo para um tom mais escuro */
+    color: #333; /* Define a cor do texto para um tom mais escuro */
+}
+
+/* Estilo para a barra de navegação */
+.topnav {
+    text-align: center; /* Centraliza o título */
+    margin-top: 50px; /* Espaçamento superior */
+    font-size: 24px; /* Tamanho da fonte */
+    background-color: #c0392b; /* Cor de fundo */
+    padding: 15px 0; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    border-radius: 8px; /* Cantos arredondados */
+}
+
+.topnav a {
+    padding: 10px 20px; /* Adiciona espaçamento lateral */
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado padrão dos links */
+    border: 2px solid transparent; /* Adiciona uma borda transparente */
+    transition: border-color 0.3s ease, color 0.3s ease, background-color 0.3s ease; /* Transições suaves */
+    margin: 0 10px; /* Margem entre links */
+    border-radius: 4px; /* Cantos arredondados */
+}
+
+.topnav a:hover {
+    color: #c0392b; /* Cor dos links quando passar o mouse sobre eles */
+    border-color: #fff; /* Cor da borda ao passar o mouse */
+    background-color: #fff; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo para imagens */
+.imagem {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 57vh; /* Define a altura máxima como 57% da altura da janela */
+    object-fit: cover; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilo para alertas */
+.alert {
+    padding: 15px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza o texto */
+    border-radius: 8px; /* Cantos arredondados */
+}
+
+/* Estilo para formulários */
+form {
+    max-width: 800px; /* Aumenta a largura máxima do formulário */
+    margin: 20px auto; /* Centraliza o formulário com margem superior e inferior */
+    background-color: #fff; /* Fundo branco */
+    padding: 20px;
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+form input[type="text"], form input[type="submit"], form input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 4px; /* Cantos arredondados */
+    border: 1px solid #ddd; /* Borda leve */
+}
+
+form input[type="submit"], form input[type="button"] {
+    background-color: #c0392b; /* Cor do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    cursor: pointer; /* Cursor de pointer */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+form input[type="submit"]:hover, form input[type="button"]:hover {
+    background-color: #e74c3c; /* Cor do botão ao passar o mouse */
+}
+
+/* Estilo adicional para botões */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #c0392b;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e74c3c;
+    transform: translateY(-2px); /* Eleva o botão ao passar o mouse */
+}
+
+.btn-warning {
+    background-color: #f39c12;
+}
+
+.btn-warning:hover {
+    background-color: #e67e22;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+}
+
+.btn-success {
+    background-color: #27ae60;
+}
+
+.btn-success:hover {
+    background-color: #2ecc71;
+}
+
+
